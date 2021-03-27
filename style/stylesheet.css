@@ -10,3 +10,7 @@ body {
 #header-image {
     width: 40%;
 }
+.pointer {
+    cursor: pointer;
+    text-decoration: none;
+}
