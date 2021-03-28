@@ -1,8 +1,10 @@
 function addComments(id){
+    comment = "<i class=\"fa fa-angle-right\" aria-hidden=\"true\"></i>"
+    if(id.value!==""){
     var addEventName = id.value +'<br>';
     var a = document.getElementById('userComments');
-    document.getElementById('addEventNames').innerHTML += '<p>'+addEventName+'</p>';          
-    a.value=a.defaultValue;
+    document.getElementById('addEventNames').innerHTML = '<p>'+comment+" "+addEventName+'</p>' + document.getElementById('addEventNames').innerHTML;          
+    a.value=a.defaultValue;}
 }
 var numberOfClicks=0;
 function postLiked(){
