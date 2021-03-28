@@ -16,7 +16,7 @@ body {
     color: #000;
 }
 .pointer:hover {
-    color: rgb(39, 39, 39);
+    color: rgb(68, 68, 68);
 }
 .centered {
     margin: 0;
@@ -39,4 +39,18 @@ body {
 .button-custom {
     width: 35%;
     margin: 2%;
+}
+.card-title {
+    font-weight: 500;
+}
+.card-text {
+    height: 25%;
+    max-height: 100px;
+    overflow: hidden;
+}
+.card-col {
+    height: 100%;
+}
+.card-row {
+
 }
