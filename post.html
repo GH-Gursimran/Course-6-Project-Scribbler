@@ -6,7 +6,7 @@
     <title>Post</title>
     
     <!-- TODO: Include Font Awesome file here -->
-    <link rel="stylesheet" href="/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./font-awesome/css/font-awesome.min.css">
     <!-- TODO: Include Google Fonts file here -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
@@ -102,8 +102,14 @@
       </div>
     <!--Header ends-->
     <div class="container">
-        <h1>The Tech Chronicle</h1>
-    <p id="paraText">As the world continues to embrace technological advancements at a pace that’s growing exponentially, the demand for software 
+        <h1 id="title-post" contentEditable="false">The Legacy of Jimi Hendrix</h1>
+        <button id="editsavebtn" class="btn btn-primary float-end" onclick="editsavetoggle(0)"> 
+            Edit <i class="fa fa-pencil-square-o" aria-hidden="true"></i>
+        </button>
+        <br>
+        <h5>Jimi</h5>
+        <br>
+    <p id="paraText" contentEditable="false">As the world continues to embrace technological advancements at a pace that’s growing exponentially, the demand for software 
         developers is on the rise. It is software developers who collaborate with data scientists and analysts to build software and 
         applications that are transforming the entire canvas of the global society on a massive scale. Today we have an app for addressing 
         all our needs – Uber, Airbnb, Zomato, PayPal, Amazon, and so much more. Then again, we now have smart personal assistants like Siri, 

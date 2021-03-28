@@ -1,15 +1,11 @@
 
 h1{    
-    color: blue;
     text-align: center; 
 }
 div{  
  width: 30%;
  }
-button{
-    background-color: blue;
-    color: white;
-}
+
 p{
     background-color: white;
 }
@@ -54,5 +50,5 @@ input{
     padding: 15px;
 }
 #likeCount {
-    font-size: 0.7vw;
+    font-size: 12px;
 }
