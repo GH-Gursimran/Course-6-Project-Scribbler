@@ -54,3 +54,7 @@ input{
     font-family: 'Great Vibes', cursive;
     font-size: 30px;
 }
+.submit-button {
+    background-color: #5eb762;
+    color:white;
+}

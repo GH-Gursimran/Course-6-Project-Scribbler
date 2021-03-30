@@ -26,8 +26,8 @@
             </a>
 
             <div class="col-md-3 text-end">
-            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#Login">Login</button>
-            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#SignUp">Sign-up</button>
+              <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#Login">Login</button>
+              <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#SignUp">Sign-up</button>
             </div>
         </header>
       </div>
@@ -45,18 +45,20 @@
                   <form>
                     <div class="mb-3">
                       <label for="exampleInputUsername" class="form-label">Username</label>
-                      <input type="text" class="form-control" id="exampleInputUsername" required>
+                      <input type="text" class="form-control" id="exampleInputUsername" placeholder="Enter Username" required>
                     </div>
                     <div class="mb-3">
-                      <label for="exampleInputPassword1" class="form-label">Password</label>
-                      <input type="password" class="form-control" id="exampleInputPassword1" required>
+                      <label for="exampleInputPassword1" class="form-label" >Password</label>
+                      <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Enter Password" required>
                     </div>
-                    <button type="submit" class="btn btn-success w-100">Submit</button>
+                    <button type="submit" class="btn submit-button w-100">Submit</button>
                   </form>
 
                 </div>
                 <div class="modal-footer">
-                  Not a member? <a class="pointer" data-bs-toggle="modal" data-bs-target="#SignUp">Sign Up</a>
+                  <div class="mr-auto">
+                    Not a member? <a class="pointer" data-bs-toggle="modal" data-bs-target="#SignUp">Sign Up</a>
+                  </div>
                 </div>
               </div>
             </div>
@@ -91,7 +93,7 @@
                       <input type="password" class="form-control" id="exampleInputPassword2" placeholder="Confirm Password"required>
                     </div>
                     <br>
-                    <button type="submit" class="btn btn-success w-100">Submit</button>
+                    <button type="submit" class="btn submit-button w-100">Submit</button>
                     <div style="height: 20px;"></div>
                   </form>
 
@@ -128,7 +130,7 @@
                 <br>
                 <div class="text-center">
                     <button class="btn btn-success">Create</button>
-                  </div>
+                </div>
               </form>
             </div>
           </div>

@@ -14,9 +14,13 @@ body {
 .pointer {
     cursor: pointer;
     text-decoration: none;
+}
+.post-container .pointer {
+    cursor: pointer;
+    text-decoration: none;
     color: #000;
 }
-.pointer:hover {
+.post-container .pointer:hover {
     color: rgb(68, 68, 68);
 }
 .centered {
@@ -54,6 +58,7 @@ body {
 .card-col {
     height: 100%;
 }
-.card-row {
-
+.submit-button {
+    background-color: #5eb762;
+    color:white;
 }
